@@ -94,6 +94,32 @@ class MyApp extends StatelessWidget {
                   textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),
+              // -----------------------------------------------------------------------------
+              const SizedBox(height: 50),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Image.asset(
+                'assets/local.png',
+                width: 150,
+                height: 150,
+                errorBuilder: (context, error, stackTrace) {
+                  return const Icon(Icons.error, color: Colors.red, size: 100);
+                },
+              ),
+              const SizedBox(height: 50,),
+              Image.asset(
+                'assets/local.png',
+                width: 150,
+                height: 150,
+                errorBuilder: (context, error, stackTrace) {
+                  return const Icon(Icons.error, color: Colors.red, size: 100);
+                },
+              ),
+              Expanded(child: const Text('woooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooowwoooooooooooooooooooooooooooooooooooooooow')),//expanded กัน text ทะลุจอ
+              ],
+            )
+            //-------------------------------------------------------------------------------
             ],
           ),
         ),
