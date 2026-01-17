@@ -42,13 +42,12 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  // Extracted the Card into a helper method for cleaner code
   Widget SleekProductCard(BuildContext context) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
 
-      // ===== Header ร้าน =====
+
       Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -81,7 +80,7 @@ class MyApp extends StatelessWidget {
 
       const SizedBox(height: 14),
 
-      // ===== รูปสินค้า =====
+
       ClipRRect(
         borderRadius: BorderRadius.circular(16),
         child: Image.asset(
@@ -93,7 +92,7 @@ class MyApp extends StatelessWidget {
 
       const SizedBox(height: 14),
 
-      // ===== Like / Comment / Share =====
+
       Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: const [

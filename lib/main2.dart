@@ -173,9 +173,6 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                   ),
-
-                  // ดาวคะแนน
-
                   Text("4.5",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
