@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp_1/about_page.dart';
+import 'package:myapp_1/mylist_page.dart';
 import 'package:myapp_1/welcome_page.dart';
 import 'package:myapp_1/welcome_page2.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         appBarTheme: const AppBarTheme(color: Colors.orange)
       ),
-      home: WelcomePage2()
+      home: Mylistpage()
     );
   }
 }
